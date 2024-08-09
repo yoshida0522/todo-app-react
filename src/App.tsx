@@ -56,6 +56,7 @@ const App = () => {
     setEditId(undefined)
     handleCloseEditForm()
   }
+  
 
   const handleStatusChange = (targetTodo:({id:number,title:string,status:string}), e:any) => {
     const newArray = todos.map((todo) =>
